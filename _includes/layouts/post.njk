@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<article>
+  <header>
+    <h2 class="headline">{{ title }}</h2>
+    by 
+    <address class="author">Sebastian Schaetz</address> 
+    written
+    <time pubdate datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+  </header>
+  <div class="article-content">
+  {{ content | safe }}
+  </div>
+</article>

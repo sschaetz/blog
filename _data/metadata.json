@@ -1,0 +1,21 @@
+{
+  "title": "Soundbarrier Blog",
+  "url": "https://soundbarrier.io",
+  "language": "en",
+  "description": "Personal blog about hardware, software, data and other interesting things.",
+  "feed": {
+    "subtitle": "Personal blog about hardware, software, data and other interesting things.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://soundbarrier.io/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://soundbarrier.io/feed/feed.json"
+  },
+  "author": {
+    "name": "Sebastian Schaetz",
+    "email": "sebastian@soundbarrier.io",
+    "url": "https://soundbarrier.com/about-me/"
+  }
+}

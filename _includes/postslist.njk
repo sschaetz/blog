@@ -1,0 +1,28 @@
+<section>
+{% for post in postslist | reverse %}
+  <article>
+    <header>
+      {% if post.data.title %}
+        <h2 class="headline">
+          <a href="{{ post.url | url }}" class="postlist-headline-link">
+            {{ post.data.title }}
+          </a>
+        </h2>
+      {% else %}
+        <code>{{ post.url }}</code>
+      {% endif %}
+      by 
+      <address class="author">Sebastian Schaetz</address> 
+      written
+      <time pubdate datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>  
+    </header>
+    <div class="article-content">
+        {%- if post.data.page.excerpt -%}
+          {{ post.data.page.excerpt | safe }}
+        {%- endif -%}
+        <a href="{{ post.url | url }}">Continue reading..</a>
+    </div>
+    
+  </article> 
+{% endfor %}
+<section>

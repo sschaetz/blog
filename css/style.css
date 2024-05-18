@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  color: white;
+  margin: auto;
+  padding: 6px;
+  max-width: 700px;
+  text-align: left;
+  position: relative;
+  line-height: 1.4;
+}
+
+h2 {
+  margin-bottom: .2em;
+}
+
+a:link {
+  color: rgb(0, 157, 255);
+}
+
+a:visited {
+  color: rgb(62, 178, 249);
+}
+
+
+a:active {
+  color: rgb(103, 197, 255);
+}
+
+nav a, footer div a {
+  margin:0px 5px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+img, video {
+}
+
+.postlist-headline-link:link {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.postlist-headline-link:visited {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.postlist-headline-link:active {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+address.author {
+  white-space: nowrap;
+  display: inline
+}
+
+.article-content {
+  margin-top: 1em
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
