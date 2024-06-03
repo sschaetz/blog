@@ -18,6 +18,12 @@ the future of version control.
 
 --excerpt--
 
+__Update:__
+*Folks are discussing this post and version control in general over
+on [HN](https://news.ycombinator.com/item?id=40424452) so head over
+there if you want to read some more opinions and thoughts on this
+topic.*
+
 If you are new user to Git, it is likely that your critique will
 focus on usability. Its user interface is called obnoxious and arcane
 and its underlying concepts can be alien and difficult to learn.
